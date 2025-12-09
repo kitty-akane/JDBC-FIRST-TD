@@ -2,11 +2,8 @@ package com.jdbc;
 
 public class Category {
 
-    private int id;
-    private String name;
-
-    public Category() {
-    }
+    private final int id;
+    private final String name;
 
     public Category(int id, String name) {
         this.id = id;
@@ -23,6 +20,9 @@ public class Category {
 
     @Override
     public String toString() {
-        return "Category{id=" + id + ", name='" + name + "'}";
+        return "Category{"
+                + "id=" + id
+                + ", name='" + name + '\''
+                + '}';
     }
 }
