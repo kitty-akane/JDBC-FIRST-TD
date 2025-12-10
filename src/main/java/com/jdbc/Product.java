@@ -52,7 +52,7 @@ public class Product {
                 + ", name='" + name + '\''
                 + ", price=" + price
                 + ", creationDatetime=" + creationDatetime
-                + ", category=" + category
+                + ",category=" + category
                 + '}';
     }
 }
