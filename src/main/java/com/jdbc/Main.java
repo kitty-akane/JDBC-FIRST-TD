@@ -9,7 +9,7 @@ public class Main {
         DataRetriever retriever = new DataRetriever();
 
         try {
-            System.out.println("=== Toutes les Categories ===");
+            System.out.println("== Toutes les Categories ==");
             List<Category> categories = retriever.getAllCategories();
             for (Category c : categories) {
                 System.out.println(c.getId() + " - " + c.getName());
